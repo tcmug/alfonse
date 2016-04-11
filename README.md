@@ -25,6 +25,9 @@ cd under ansible and run:
 $ ./provision.sh
 ```
 
+**Note:**
+During provisioning you should modify /root/run.sh to run whatever service you wish the container to run.
+
 Then proceed to stop the container:
 ```
 $ docker stop $(docker ps -q --filter="name=alfonse")
