@@ -8,9 +8,9 @@ cp ~/.ssh/id_rsa.pub ssh_key.pub
 ```
 
 Then build the container:
-'''
+```
 $ docker build -t alfonse:1.0 .
-'''
+```
 
 Start the container:
 ```
