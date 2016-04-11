@@ -1,0 +1,4 @@
+
+- name: Install nginx as an example
+  apk: name=nginx update_cache=yes
+
